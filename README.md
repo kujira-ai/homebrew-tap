@@ -2,6 +2,7 @@
 
 ```bash
 brew tap kujira-ai/tap
+brew trust kujira-ai/tap   # required by modern Homebrew for third-party taps
 brew install supergrok-bar
 supergrok-bar
 ```
