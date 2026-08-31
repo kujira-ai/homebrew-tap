@@ -11,4 +11,4 @@ supergrok-bar
 
 | Formula | Description |
 |---------|-------------|
-| [supergrok-bar](https://github.com/kujira-ai/SuperGrokBar) | macOS menu bar SuperGrok usage monitor |
+| [supergrok-bar](https://github.com/kujira-ai/SuperGrokBar) | macOS menu bar Grok Bot and Grok Build usage monitor |
