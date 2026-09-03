@@ -1,8 +1,8 @@
 class SupergrokBar < Formula
   desc "macOS menu bar monitor for Grok Bot and Grok Build usage"
   homepage "https://github.com/kujira-ai/SuperGrokBar"
-  url "https://github.com/kujira-ai/SuperGrokBar/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "fb47691f565ff756864bbdb3c6e2778ba3cbc186db1971df984efa0ce8139467"
+  url "https://github.com/kujira-ai/SuperGrokBar/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "f707d44ce2167036e192bbc38593225a95e95790a105e438149851f667f190d0"
   license "MIT"
   head "https://github.com/kujira-ai/SuperGrokBar.git", branch: "main"
 
@@ -44,6 +44,6 @@ class SupergrokBar < Formula
 
   test do
     assert_predicate libexec/"SuperGrokBar", :exist?
-    assert_match "1.1.0", shell_output("#{bin}/supergrok-bar version")
+    assert_match "1.1.1", shell_output("#{bin}/supergrok-bar version")
   end
 end
